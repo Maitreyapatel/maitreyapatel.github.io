@@ -1,82 +1,108 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{patel2022cripp,
+  abbr={multimodal},
+  title={{CRIPP-VQA}: Counterfactual Reasoning about Implicit Physical Properties via Video Question Answering},
+  author={Patel, Maitreya and Gokhale, Tejas and Baral, Chitta and Yang, Yezhou},
+  abstract={Videos often capture objects, their motion, and the interactions between different objects.
+Although real-world objects have physical properties associated with them, many of these properties (such as mass and coefficient of friction) are not captured directly by the imaging pipeline.
+However, these properties can be estimated by utilizing cues from relative object motion and the dynamics introduced by collisions.
+In this paper, we introduce a new video question answering task for reasoning about the implicit physical properties of objects in a scene, from videos.
+For this task, we introduce a dataset -- CRIPP-VQA, which contains videos of objects in motion, annotated with hypothetical/counterfactual questions about the effect of actions (such as removing, adding, or replacing objects), questions about planning (choosing actions to perform in order to reach a particular goal), as well as descriptive questions about the visible properties of objects.
+We benchmark the performance of existing video question answering models on two test settings of CRIPP-VQA: \textit{i.i.d.} and an out-of-distribution setting which contains objects with values of mass, coefficient of friction, and initial velocities that are not seen in the training distribution.
+Our experiments reveal a surprising and significant performance gap in terms of answering questions about implicit properties (the focus of this paper) and explicit properties (the focus of prior work) of objects.},
+  booktitle={EMNLP, Main Conference -- },
+  year={2022},
+  url={https://anonymousauthor57.github.io/CRIPP-VQA-demo/},
+  website={https://anonymousauthor57.github.io/CRIPP-VQA-demo/},
+  selected={true},
+  preview={cripp_example.gif},
+  bibtex_show={true}
+}
 
-@book{einstein1956investigations,
+
+@inproceedings{wang2022benchmarking,
+  abbr={NLP},
+  title={Benchmarking generalization via in-context instructions on 1,600+ language tasks},
+  author={Wang, Yizhong and Mishra, Swaroop and Alipoormolabashi, Pegah and Kordi, Yeganeh and Mirzaei, Amirreza and others},
+  abstract={How can we measure the generalization of models to a variety of unseen tasks when provided with their language instructions? To facilitate progress in this goal, we introduce Natural-Instructions v2, a benchmark of 1,600+ diverse language tasks and their expert-written instructions. It covers 70+ distinct task types, such as tagging, in-filling, and rewriting. These tasks are collected with contributions of NLP practitioners in the community and through an iterative peer review process to ensure their quality. With this large and diverse collection of tasks, we are able to rigorously benchmark cross-task generalization of models -- training on a subset of tasks and evaluating on the remaining unseen ones. For instance, we quantify generalization as a function of various scaling parameters, such as the number of observed tasks, the number of instances, and model sizes. Based on these insights, we introduce Tk-Instruct, an encoder-decoder Transformer that is trained to follow a variety of in-context instructions (plain language task definitions or k-shot examples) which outperforms existing larger models on our benchmark. We hope this benchmark facilitates future progress toward more general-purpose language understanding models.},
+  booktitle={EMNLP, Main Conference -- },
+  year={2022},
+  url={https://instructions.apps.allenai.org},
+  website={https://instructions.apps.allenai.org},
+  selected={true},
+  preview={instruct.png},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  pdf={https://arxiv.org/pdf/2204.07705.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+
+
+@inproceedings{malaviya2020mspec,
+  title={{MSpeC-Net}: Multi-Domain Speech Conversion Network},
+  author={Malaviya, Harshit and Shah, Jui and Patel, Maitreya and Munshi, Jalansh and Patil, Hemant A},
+  booktitle={45th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={7764--7768},
+  year={2020},
+  selected={true},
+  organization={IEEE},
+  code={https://github.com/Maitreyapatel/speech-conversion-between-different-modalities},
+  website={https://maitreyapatel.github.io/mspec-net-demo/},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  pdf={https://ieeexplore.ieee.org/document/9052966},
+  preview={mspecnet.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{patel2020cinc,
+  title={{CinC-GAN} for Effective F0 prediction for Whisper-to-Normal Speech Conversion},
+  author={Patel, Maitreya and Purohit, Mirali and Shah, Jui and Patil, Hemant A},
+  booktitle={28th European Signal Processing Conference (EUSIPCO)},
+  year={2020},
+  selected={true},
+  organization={IEEE},
+  code={https://github.com/Maitreyapatel/speech-conversion-between-different-modalities},
+  pdf={https://arxiv.org/pdf/2008.07788.pdf},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  preview={cinc.png},
+}
+
+@inproceedings{purohit2020weak,
+  title={Weak Speech Supervision: A case study of Dysarthria Severity Classification},
+  author={Purohit, Mirali and Parmar, Mihir and Patel, Maitreya and Malaviya, Harshit and Patil, Hemant A},
+  booktitle={28th European Signal Processing Conference (EUSIPCO)},
+  year={2020},
+  selected={true},
+  organization={IEEE},
+  bibtex_show={true},
+  pdf={https://ieeexplore.ieee.org/document/9287502},
+  preview={},
+}
+
+
+@inproceedings{patel2019novel,
+  title={Novel adaptive generative adversarial network for voice conversion},
+  author={Patel, Maitreya and Parmar, Mihir and Doshi, Savan and Shah, Nirmesh J and Patil, Hemant A},
+  booktitle={11th Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+  pages={1273--1281},
+  year={2019},
+  selected={true},
+  organization={IEEE},
+  bibtex_show={true},
+  pdf={https://ieeexplore.ieee.org/document/9023141},
+  preview={adagan.png}
+}
+
+
+@inproceedings{parmar2019effectiveness,
+  title={Effectiveness of cross-domain architectures for whisper-to-normal speech conversion},
+  author={Parmar, Mihir and Doshi, Savan and Shah, Nirmesh J and Patel, Maitreya and Patil, Hemant A},
+  booktitle={27th European Signal Processing Conference (EUSIPCO)},
+  year={2019},
+  selected={true},
+  organization={IEEE},
+  bibtex_show={true},
+  pdf={https://ieeexplore.ieee.org/document/8902961},
+  preview={first.png}
 }

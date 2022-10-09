@@ -2,96 +2,100 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Maitreya Patel
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 24th August 1998
+    - name: Email
+      value: mpatel57@asu.edu
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Arizona State University
+      year: 2021 -- Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <b>Advisors:</b> <a href="https://yezhouyang.engineering.asu.edu">Yezhou Yang</a>, <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>
+    - title: Masters in Computer Science (with thesis)
+      institution: Arizona State University
+      year: 2021 -- 2022
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Theis:</b> Counterfactual Reasoning for learning implicit physical properties
+        - <b>Advisors:</b> <a href="https://yezhouyang.engineering.asu.edu">Yezhou Yang</a>, <a href="https://www.public.asu.edu/~cbaral/">Chitta Baral</a>
+    - title: Bachelor of Technology (ICT)
+      institution: Dhirubhai Ambani Institute of Information and Communication Technology
+      year: 2016 -- 2020
+      description:
+        - <b>Advisor:</b> <a href="https://sites.google.com/site/hemantpatildaiict/">Hemant Patil</a>
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Arizona State University
+      year: Fall'22
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Robust multi-modal Representation Learning.
+        - <b>Advisor:</b> <a href="https://yezhouyang.engineering.asu.edu">Yezhou Yang</a>
+    - title: AI/ML Intern
+      institution: LatentAI
+      year: Summer'22
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Semantic segmentation model compression for edge devices.
+        - <b>Advisor:</b> <a href="https://scholar.google.com/citations?user=hFUJkFgAAAAJ&hl=en">Jan Ernst</a>
+    - title: Research Assitant
+      institution: Arizona State University
+      year: May'21 -- May'22
       description:
+        - Unsupervised aspect based sentiment analysis.
+        - <b>Advisor:</b> <a href="https://www.public.asu.edu/~hdavulcu/">Hasan Davulcu</a>
+    - title: Data Science Associates
+      institution: AI-CoE, ZS Associates
+      year: Jan'20 -- Dec'20
+      description:
+        - Transformers for rare-disease detection from tabular data.
+        - <b>Advisor:</b> <a href="https://in.linkedin.com/in/pksprakash">Prakash Prakash</a>
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Simon Fraser University - MSCS Research scholarship of $42,000.00 (Declined).
+    - year: 2020
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deans' Award for Excellence in Research & Innovation in class of 2020 undergraduate batch.
+    - year: 2019
       items:
-        - Description 1.
-        - Description 2.
+        - Ranked under top 50 out of 7000 applicants in ML-challenge organized by ZS Associates in India.
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Importance of Counterfactual Reasoning towards Human Level Intelligence (HLI). -- LatentAI
+    - year: 2020
+      items:
+        - MSpeC-Net Multi-Domain Speech Conversion Network -- ICASSP
+    - year: 2019
+      items:
+        - Towards eXplainable AI (XAI) to understand what CNNs are learning.
+        - How to deploy any deep learning system?
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Traveling, Kayaking, Anime/Manga.

@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 I am a second year PhD student at Arizona State University (ASU). I will be receiving my masters in computer science with thesis in December, 2022 from ASU. I will be `continuing my ongoing research work as a part of my graduate studies`. 
 
 
-I work with [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/), and closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) (PhD candidate) and [Jan Ernst](https://scholar.google.com/citations?user=hFUJkFgAAAAJ&hl=en) (AI/ML Lead at LatentAI).  
+I work with [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/), and closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) (PhD candidate).  
 
 
 My goal as a PhD student is to persue the research in the domain of `Robust and Efficient` Multi-modal representation learning. To acheive this, I truly believe that `Counterfactual/Causal Reasoning` will play the msot important role. Apart from this, I'm super interested in using `Language as a Computation tool` for robotics tasks and Visual Language Navigation.

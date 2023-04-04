@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year Ph.D. student at Arizona State University (ASU). I receieved my master's in computer science with a [thesis](https://www.proquest.com/openview/a3e03e583ae1ebb3be1004f80efc1261/1?pq-origsite=gscholar&cbl=18750&diss=y) in December 2022 from ASU.
+I am a first-year Ph.D. student at Arizona State University (ASU). I receieved my master's in computer science with a [thesis](https://www.proquest.com/openview/a3e03e583ae1ebb3be1004f80efc1261/1?pq-origsite=gscholar&cbl=18750&diss=y) in December 2022 from ASU.
 
 <!-- I am a second year PhD student at Arizona State University (ASU). I will be receiving my masters in computer science with thesis in December, 2022 from ASU. I will be `continuing my ongoing research work as a part of my graduate studies`.  -->
 
@@ -24,7 +24,7 @@ I work with [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Ba
 
 My goal as a Ph.D. student is to pursue research in the domain of `Robust and Efficient` Multi-modal representation learning. To achieve this, I genuinely believe that `Counterfactual/Causal Reasoning` will play the most important role. Apart from this, I’m super interested in using `Language as a Computation tool` for robotics tasks and Visual Language Navigation.
 
-Apart from academics, I like to work on interesting open-source projects. Recently, I'm spending my free time developing [reliability-score](https://github.com/Maitreyapatel/reliability-score) (coming soon -- will be released on March'23) and [not-so-secure-ai](https://github.com/Maitreyapatel/not-so-secure-ai) (under review for product market fit). 
+Apart from academics, I like to work on interesting open-source projects. Recently, I'm spending my free time developing [reliability-checklist](https://github.com/Maitreyapatel/reliability-checklist) (coming soon! -- this week?) and [not-so-secure-ai](https://github.com/Maitreyapatel/gotta-catch-em-all) (under review for product market fit). 
 
 
 <!-- My goal as a PhD student is to persue the research in the domain of `Robust and Efficient` Multi-modal representation learning. To acheive this, I truly believe that `Counterfactual/Causal Reasoning` will play the msot important role. Apart from this, I'm super interested in using `Language as a Computation tool` for robotics tasks and Visual Language Navigation. -->

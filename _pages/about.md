@@ -24,7 +24,7 @@ I work with [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Ba
 
 My goal as a Ph.D. student is to pursue research in the domain of `Robust and Efficient` Multi-modal representation learning. To achieve this, I genuinely believe that `Counterfactual/Causal Reasoning` will play the most important role. Apart from this, I’m super interested in using `Language as a Computation tool` for robotics tasks and Visual Language Navigation.
 
-Apart from academics, I like to work on interesting open-source projects. Recently, I'm spending my free time developing [reliability-checklist](https://github.com/Maitreyapatel/reliability-checklist) (coming soon! -- this week?) and [not-so-secure-ai](https://github.com/Maitreyapatel/gotta-catch-em-all) (under review for product market fit). 
+Apart from academics, I like to work on interesting open-source projects. Recently, I'm spending my free time developing [reliability-checklist](https://github.com/Maitreyapatel/reliability-checklist) (v0.1.0 is out) and [not-so-secure-ai](https://github.com/Maitreyapatel/gotta-catch-em-all) (under review for product market fit). 
 
 
 <!-- My goal as a PhD student is to persue the research in the domain of `Robust and Efficient` Multi-modal representation learning. To acheive this, I truly believe that `Counterfactual/Causal Reasoning` will play the msot important role. Apart from this, I'm super interested in using `Language as a Computation tool` for robotics tasks and Visual Language Navigation. -->

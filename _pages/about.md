@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Ph.D. Student</a>, School of Computing & AI, Arizona State University.
 

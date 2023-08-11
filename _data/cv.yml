@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Maitreya Patel
-    - name: Date of Birth
-      value: 24th August 1998
-    - name: Email
-      value: mpatel57@asu.edu
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Maitreya Patel
+#     # - name: Date of Birth
+#     #   value: 24th August 1998
+#     - name: Email
+#       value: mpatel57@asu.edu
 
 - title: Education
   type: time_table

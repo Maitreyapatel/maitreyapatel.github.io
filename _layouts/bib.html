@@ -68,11 +68,11 @@
       {%- endif -%}
       {%- if author_is_self -%}
       <em>
-        <i>{{author.first}} {{author.last}}</i>
+        <b><i style="color:#00369f;">{{author.first}} {{author.last}}</i></b>
       </em>
       {%- else -%}
       {%- if coauthor_url -%}
-      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+      <a href="{{coauthor_url}}" style="color:black;">{{author.first}} {{author.last}}</a>
       {%- else -%}
       {{author.first}} {{author.last}}
       {%- endif -%}
@@ -110,11 +110,13 @@
     </div>
 
     <!-- Journal/Book title and date -->
+    <br>
     {% assign proceedings = "inproceedings, incollection" | split: ','%}
     {% if entry.type == "article" -%}
     {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
     {%- elsif proceedings contains entry.type -%}
-    {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+    <!-- {%- capture entrytype -%}<b><em style="color:#AA4A44;">In {{entry.booktitle}}</em></b>{%- endcapture -%} -->
+    {%- capture entrytype -%}<b><em>In {{entry.booktitle}}</em></b>{%- endcapture -%}
     {%- else -%}
     {%- capture entrytype -%}{%- endcapture -%}
     {%- endif -%}

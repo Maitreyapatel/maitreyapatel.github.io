@@ -109,6 +109,24 @@
 
     </div>
 
+    <div class="media">
+      {%- if entry.media1 -%}
+      <b style="color:crimson">Media Coverages:</b>&nbsp;
+      <em>
+        <a href="{{entry.media1}}">
+          <i style="color:#00369f;">AK</i>
+        </a>
+      </em>&nbsp;
+      {%- if entry.media2 -%}
+      <em>
+        <a href="{{entry.media2}}">
+          <i style="color:#00369f;">, MarkTechPost</i>
+        </a>
+      </em>
+      {%- endif -%}
+      {%- endif -%}
+    </div>
+
     <!-- Journal/Book title and date -->
     <br>
     {% assign proceedings = "inproceedings, incollection" | split: ','%}

@@ -71,6 +71,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - Received ($950) Graduate College Travel Award FY23 Q4 for NeurIPS from ASU.
+    - year: 2022
+      items:
+        - Received ($300) Graduate College Travel Award FY22 Q4 for NeurIPS from ASU.
     - year: 2021
       items: 
         - Simon Fraser University - MSCS Research scholarship of $42,000.00 (Declined).
@@ -84,6 +90,15 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - Towards Robust Text-to-Image Generative Models in Resource-Efficient Manner. -- RGMV - Tutorial @ WACV'24
+    - year: 2023
+      items:
+        - Survey and Trend in Vision-Language. -- ASU
+    - year: 2023
+      items:
+        - Recent Advances in Generative Models. -- DAIICT
     - year: 2022
       items:
         - Importance of Counterfactual Reasoning towards Human Level Intelligence (HLI). -- LatentAI

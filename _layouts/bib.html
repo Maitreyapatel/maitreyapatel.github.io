@@ -109,7 +109,7 @@
 
     </div>
 
-    <!-- <div class="media">
+    <div class="media">
       {%- if entry.media1 -%}
       <b style="color:crimson">Media Coverages:</b>&nbsp;
       <em>
@@ -124,8 +124,22 @@
         </a>
       </em>
       {%- endif -%}
+      {%- if entry.media3 -%}
+      <em>
+        <a href="{{entry.media3}}">
+          <i style="color:#00369f;">, MultiplatformAI</i>
+        </a>
+      </em>
       {%- endif -%}
-    </div> -->
+      {%- if entry.media4 -%}
+      <em>
+        <a href="{{entry.media4}}">
+          <i style="color:#00369f;">, Paper Digest</i>
+        </a>
+      </em>
+      {%- endif -%}
+      {%- endif -%}
+    </div>
 
     <!-- Journal/Book title and date -->
     <br>

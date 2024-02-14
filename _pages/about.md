@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a first-year Ph.D. student at Arizona State University (ASU). I am working alongside [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/). I closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) and [Changhoon Kim](https://sites.google.com/asu.edu/changhoonkim).
+I am a Ph.D. student at Arizona State University (ASU). I am working alongside [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/). I closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) and [Changhoon Kim](https://sites.google.com/asu.edu/changhoonkim).
  <!-- from the University of Maryland and Changhoon Kim, a Ph.D. Candidate. -->
 <!-- I receieved my master's in computer science with a [thesis](https://www.proquest.com/openview/a3e03e583ae1ebb3be1004f80efc1261/1?pq-origsite=gscholar&cbl=18750&diss=y) in December 2022 from ASU. -->
 

@@ -1,12 +1,12 @@
 ---
 ---
-@inproceedings{patel2023eclipse,
+@inproceedings{patel2024eclipse,
   abbr        = {diffusion},
   title       = {ECLIPSE:A Resource-Efficient Text-to-Image Prior for Image Generations},
   author      = {Patel, Maitreya and Kim, Changhoon and Cheng, Sheng and Baral, Chitta and Yang, Yezhou},
   abstract    = {Text-to-image (T2I) diffusion models, notably the unCLIP models (e.g., DALL-E-2), achieve state-of-the-art (SOTA) performance on various compositional T2I benchmarks, at the cost of significant computational resources. The unCLIP stack comprises T2I prior and diffusion image decoder. The T2I prior model alone adds a billion parameters compared to the Latent Diffusion Models, which increases the computational and high-quality data requirements. We introduce ECLIPSE, a novel contrastive learning method that is both parameter and data-efficient. ECLIPSE~leverages pre-trained vision-language models (e.g., CLIP) to distill the knowledge into the prior model. We demonstrate that the ECLIPSE~trained prior, with only 3.3% of the parameters and trained on a mere 2.8% of the data, surpasses the baseline T2I priors with an average of 71.6% preference score under resource-limited setting. It also attains performance on par with SOTA larger models, achieving an average of 63.36% preference score in terms of the ability to follow the text compositions. Extensive experiments on two unCLIP diffusion image decoders, Karlo and Kandinsky, affirm that ECLIPSE~consistently delivers high performance while significantly reducing resource dependency.},
-  booktitle   = {ArXiv -- },
-  year        = {2023},
+  booktitle   = {CVPR -- },
+  year        = {2024},
   pdf         = {https://arxiv.org/abs/2312.04655},
   url         = {https://eclipse-t2i.vercel.app},
   website     = {https://eclipse-t2i.vercel.app},
@@ -19,6 +19,24 @@
   media2      = {https://www.marktechpost.com/2023/12/13/this-ai-research-from-arizona-state-university-unveil-eclipse-a-novel-contrastive-learning-strategy-to-improve-the-text-to-image-non-diffusion-prior/},
   media3      = {https://multiplatform.ai/eclipse-a-game-changer-in-text-to-image-generation-unveiled-by-arizona-state-university/},
   media4      = {https://youtu.be/jjcMmIGottQ?si=DKqWE8lnOfjB-rx9},
+}
+
+@inproceedings{kim2024wouaf,
+  abbr        = {diffusion},
+  title       = {WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models},
+  author      = {Kim*, Changhoon and Min*, Kyle and Patel, Maitreya and Cheng, Sheng and Yang, Yezhou},
+  abstract    = {The rapid advancement of generative models, facilitating the creation of hyper-realistic images from textual descriptions, has concurrently escalated critical societal concerns such as misinformation. Traditional fake detection mechanisms, although providing some mitigation, fall short in attributing responsibility for the malicious use of synthetic images. This paper introduces a novel approach to model fingerprinting that assigns responsibility for the generated images, thereby serving as a potential countermeasure to model misuse. Our method modifies generative models based on each user's unique digital fingerprint, imprinting a unique identifier onto the resultant content that can be traced back to the user. This approach, incorporating fine-tuning into Text-to-Image (T2I) tasks using the Stable Diffusion Model, demonstrates near-perfect attribution accuracy with a minimal impact on output quality. We rigorously scrutinize our method's secrecy under two distinct scenarios: one where a malicious user attempts to detect the fingerprint, and another where a user possesses a comprehensive understanding of our method. We also evaluate the robustness of our approach against various image post-processing manipulations typically executed by end-users. Through extensive evaluation of the Stable Diffusion models, our method presents a promising and novel avenue for accountable model distribution and responsible use.},
+  booktitle   = {CVPR -- },
+  year        = {2024},
+  pdf         = {https://arxiv.org/abs/2306.04744},
+  url         = {https://wouaf.vercel.app/},
+  website     = {https://wouaf.vercel.app/},
+  demo        = {https://huggingface.co/spaces/mpatel57/WOUAF-Text-to-Image},
+  code        = {https://wouaf.vercel.app/},
+  selected    = {true},
+  preview     = {wouaf_model.png},
+  bibtex_show = {true},
+  media1      = {https://x.com/_akhaliq/status/1683678703048613888?s=46&t=XjL7XPmZ27Ev6ec3m2Wopw}
 }
 
 @inproceedings{patel2023conceptbed,
@@ -43,24 +61,6 @@
   selected    = {true},
   preview     = {conceptbed.png},
   bibtex_show = {true}
-}
-
-@inproceedings{kim2023wouaf,
-  abbr        = {diffusion},
-  title       = {WOUAF: Weight Modulation for User Attribution and Fingerprinting in Text-to-Image Diffusion Models},
-  author      = {Kim*, Changhoon and Min*, Kyle and Patel, Maitreya and Cheng, Sheng and Yang, Yezhou},
-  abstract    = {The rapid advancement of generative models, facilitating the creation of hyper-realistic images from textual descriptions, has concurrently escalated critical societal concerns such as misinformation. Traditional fake detection mechanisms, although providing some mitigation, fall short in attributing responsibility for the malicious use of synthetic images. This paper introduces a novel approach to model fingerprinting that assigns responsibility for the generated images, thereby serving as a potential countermeasure to model misuse. Our method modifies generative models based on each user's unique digital fingerprint, imprinting a unique identifier onto the resultant content that can be traced back to the user. This approach, incorporating fine-tuning into Text-to-Image (T2I) tasks using the Stable Diffusion Model, demonstrates near-perfect attribution accuracy with a minimal impact on output quality. We rigorously scrutinize our method's secrecy under two distinct scenarios: one where a malicious user attempts to detect the fingerprint, and another where a user possesses a comprehensive understanding of our method. We also evaluate the robustness of our approach against various image post-processing manipulations typically executed by end-users. Through extensive evaluation of the Stable Diffusion models, our method presents a promising and novel avenue for accountable model distribution and responsible use.},
-  booktitle   = {Diffusion Workshop at NeurIPS -- },
-  year        = {2023},
-  pdf         = {https://arxiv.org/abs/2306.04744},
-  url         = {https://wouaf.vercel.app/},
-  website     = {https://wouaf.vercel.app/},
-  demo        = {https://huggingface.co/spaces/mpatel57/WOUAF-Text-to-Image},
-  code        = {https://wouaf.vercel.app/},
-  selected    = {true},
-  preview     = {wouaf_model.png},
-  bibtex_show = {true},
-  media1      = {https://x.com/_akhaliq/status/1683678703048613888?s=46&t=XjL7XPmZ27Ev6ec3m2Wopw}
 }
 
 @inproceedings{patel2022cripp,

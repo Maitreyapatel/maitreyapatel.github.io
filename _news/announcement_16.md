@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-02-26 00:00:00-0000
+date: 2024-02-07 00:00:00-0000
 inline: true
 ---
 
-Two papers (<u><a href="">ECLIPSE</a></u> and <u><a href="">WOUAF</a></u>) accepted @ `CVPR'24`. :fire: :fire:
+We release <u><a href="https://eclipse-t2i.github.io/Lambda-ECLIPSE/">&lambda;-ECLIPSE</a></u>, the resource-effecient Multi-Subject Text-to-Image Model. :sparkles:

@@ -6,7 +6,7 @@ subtitle: <a href='#'>Ph.D. Student</a>, School of Computing & AI, Arizona State
 
 profile:
   align: right
-  image: profile_pic.jpeg
+  image: profile_photo.jpg
   image_circular: false # crops the image to make it circular
   address: >
 

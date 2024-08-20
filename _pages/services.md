@@ -7,8 +7,16 @@ nav: true
 nav_order: 5
 ---
 
+### Organizing
+
+`Dec'24 :` Workshop at NeurIPS 2024, ["Responsibly Building the Next Generation of Multimodal Foundational Models"](https://asu-apg.github.io/rbfm/) 
+
+`Fall'24 :` Frontier Topics in Generative AI
+
+`Spring'24 :` Frontier Topics in Generative AI
+
 ### Reviewing
-`Conferences :` ICML, NeurIPS, EMNLP, ICRA, ICLR
+`Conferences :` ICML, NeurIPS, EMNLP, ICRA, ICLR, AAAI
 
 
 ### Teaching

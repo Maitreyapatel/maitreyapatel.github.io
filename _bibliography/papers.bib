@@ -1,5 +1,29 @@
 ---
 ---
+@inproceedings{patel2024tripletclip,
+  abbr        = {clip},
+  title       = {TripletCLIP: Improving Compositional Reasoning of CLIP via Vision-Language Negatives},
+  author      = {Patel, Maitreya and Kusumba, Abhiram and Cheng, Sheng and Kim, Changhoon and Baral, Chitta and Yang, Yezhou},
+  abstract    = {Contrastive Language-Image Pretraining (CLIP) models maximize the mutual information between text and visual modalities to learn representations. This makes the nature of the training data a significant factor in the efficacy of CLIP for downstream tasks. However, the lack of compositional diversity in contemporary image-text datasets limits the compositional reasoning ability of CLIP. We show that generating ``hard'' negative captions via in-context learning and synthesizing corresponding negative images with text-to-image generators offers a solution. We introduce a novel contrastive pre-training strategy that leverages these hard negative captions and images in an alternating fashion to train CLIP. We demonstrate that our method, named TripletCLIP, when applied to existing datasets such as CC3M and CC12M, enhances the compositional capabilities of CLIP, resulting in an absolute improvement of over 9% on the SugarCrepe benchmark on an equal computational budget, as well as improvements in zero-shot image classification and image retrieval. Our negative data generation strategy, data, and code will be open-sourced.},
+  booktitle   = {NeurIPS (Main Conference) -- },
+  year        = {2024},
+  selected    = {true},
+  preview     = {tripletclip.png},
+  bibtex_show = {true},
+}
+
+@inproceedings{cheng2024tripletclip,
+  abbr        = {diffusion},
+  title       = {Precision or Recall? An Analysis of Image Captions for Training Text-to-Image Generation Model},
+  author      = {Cheng, Sheng and Patel, Maitreya and Yang, Yezhou},
+  abstract    = {Recent text-to-image models often struggle to generate images that accurately align with given text, due to misalignments between training image and text pairs. In this paper, we analyze the critical role of caption precision and recall in text-to-image model training. Our analysis of human-annotated captions shows that both precision and recall are important for text-image alignment, but precision has a more significant impact. Leveraging these insights, we utilize Large Vision Language Models to generate synthetic captions for training. The performance of these models, closely mirroring that of models trained using human-annotated captions, underscores insights for the future use of synthetic data in text-to-image training.},
+  booktitle   = {EMNLP (findings) -- },
+  year        = {2024},
+  selected    = {true},
+  preview     = {sheng_emnlp.png},
+  bibtex_show = {true},
+}
+
 @inproceedings{patel2024eclipse,
   abbr        = {diffusion},
   title       = {ECLIPSE:A Resource-Efficient Text-to-Image Prior for Image Generations},

@@ -10,9 +10,33 @@
   selected    = {true},
   preview     = {tripletclip.png},
   bibtex_show = {true},
+  url         = {https://tripletclip.github.io/},
+  website     = {https://tripletclip.github.io/},
+  code        = {https://github.com/tripletclip/TripletCLIP/},
+  data        = {https://huggingface.co/TripletCLIP/},
 }
 
-@inproceedings{cheng2024tripletclip,
+@inproceedings{patel2024lambda,
+  abbr        = {diffusion},
+  title       = {λ-ECLIPSE: Multi-Concept Personalized Text-to-Image Diffusion Models by Leveraging CLIP Latent Space},
+  author      = {Patel, Maitreya and Jung, Sangmin and Baral, Chitta and Yang, Yezhou},
+  abstract    = {Despite the recent advances in personalized text-to-image (P-T2I) generative models, it remains challenging to perform finetuning-free multi-subject-driven T2I in a resource-efficient manner. Predominantly, contemporary approaches, involving the training of Hypernetworks and Multimodal Large Language Models (MLLMs), require heavy computing resources that range from 600 to 12300 GPU hours of training. In this paper, we present λ-ECLIPSE, an alternative prior-training strategy that works in the latent space of a pre-trained CLIP model without relying on the diffusion UNet models. λ-ECLIPSE leverages the novel image-text interleaved pre-training for fast and effective multi-subject-driven P-T2I. Through extensive experiments, we establish that λ-ECLIPSE surpasses existing baselines in composition alignment while preserving concept alignment performance, even with significantly lower resource utilization. λ-ECLIPSE performs multi-subject driven P-T2I with just 34M parameters and is trained on a mere 74 GPU hours. Additionally, λ-ECLIPSE achieves better balance with Canny edge-controlled subject-driven generations and demonstrates the unique ability to perform multi-concept interpolations.},
+  booktitle   = {Transactions on Machine Learning Research (TMLR)},
+  year        = {2024},
+  pdf         = {https://arxiv.org/abs/2402.05195},
+  url         = {https://eclipse-t2i.github.io/Lambda-ECLIPSE/},
+  website     = {https://eclipse-t2i.github.io/Lambda-ECLIPSE/},
+  demo        = {https://huggingface.co/spaces/ECLIPSE-Community/lambda-eclipse-personalized-t2i},
+  code        = {https://github.com/eclipse-t2i/lambda-eclipse-inference},
+  selected    = {true},
+  preview     = {lambda.jpeg},
+  bibtex_show = {true},
+  media1      = {https://x.com/_akhaliq/status/1755798954476806422?s=20},
+  media2      = {https://www.marktechpost.com/2024/02/23/arizona-state-university-researchers-%CE%BB-eclipse-a-novel-diffusion-free-methodology-for-personalized-text-to-image-t2i-applications/},
+}
+
+
+@inproceedings{cheng2024precision,
   abbr        = {diffusion},
   title       = {Precision or Recall? An Analysis of Image Captions for Training Text-to-Image Generation Model},
   author      = {Cheng, Sheng and Patel, Maitreya and Yang, Yezhou},
@@ -61,25 +85,6 @@
   preview     = {wouaf_model.png},
   bibtex_show = {true},
   media1      = {https://x.com/_akhaliq/status/1683678703048613888?s=46&t=XjL7XPmZ27Ev6ec3m2Wopw}
-}
-
-@inproceedings{patel2024lambda,
-  abbr        = {diffusion},
-  title       = {λ-ECLIPSE: Multi-Concept Personalized Text-to-Image Diffusion Models by Leveraging CLIP Latent Space},
-  author      = {Patel, Maitreya and Jung, Sangmin and Baral, Chitta and Yang, Yezhou},
-  abstract    = {Despite the recent advances in personalized text-to-image (P-T2I) generative models, it remains challenging to perform finetuning-free multi-subject-driven T2I in a resource-efficient manner. Predominantly, contemporary approaches, involving the training of Hypernetworks and Multimodal Large Language Models (MLLMs), require heavy computing resources that range from 600 to 12300 GPU hours of training. In this paper, we present λ-ECLIPSE, an alternative prior-training strategy that works in the latent space of a pre-trained CLIP model without relying on the diffusion UNet models. λ-ECLIPSE leverages the novel image-text interleaved pre-training for fast and effective multi-subject-driven P-T2I. Through extensive experiments, we establish that λ-ECLIPSE surpasses existing baselines in composition alignment while preserving concept alignment performance, even with significantly lower resource utilization. λ-ECLIPSE performs multi-subject driven P-T2I with just 34M parameters and is trained on a mere 74 GPU hours. Additionally, λ-ECLIPSE achieves better balance with Canny edge-controlled subject-driven generations and demonstrates the unique ability to perform multi-concept interpolations.},
-  booktitle   = {ArXiv -- },
-  year        = {2024},
-  pdf         = {https://arxiv.org/abs/2402.05195},
-  url         = {https://eclipse-t2i.github.io/Lambda-ECLIPSE/},
-  website     = {https://eclipse-t2i.github.io/Lambda-ECLIPSE/},
-  demo        = {https://huggingface.co/spaces/ECLIPSE-Community/lambda-eclipse-personalized-t2i},
-  code        = {https://github.com/eclipse-t2i/lambda-eclipse-inference},
-  selected    = {true},
-  preview     = {lambda.jpeg},
-  bibtex_show = {true},
-  media1      = {https://x.com/_akhaliq/status/1755798954476806422?s=20},
-  media2      = {https://www.marktechpost.com/2024/02/23/arizona-state-university-researchers-%CE%BB-eclipse-a-novel-diffusion-free-methodology-for-personalized-text-to-image-t2i-applications/},
 }
 
 @inproceedings{patel2023conceptbed,

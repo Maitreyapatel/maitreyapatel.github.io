@@ -1,5 +1,23 @@
 ---
 ---
+@inproceedings{patel2024flowchef,
+  abbr        = {flow},
+  title       = {Steering Rectified Flow Models in the Vector Field for Controlled Image Generation},
+  author      = {Patel, Maitreya and Wen, Song and Metaxas, Dimitris N. and Yang, Yezhou},
+  abstract    = {Diffusion models (DMs) excel in photorealism, image editing, and solving inverse problems, aided by classifier-free guidance and image inversion techniques. However, rectified flow models (RFMs) remain underexplored for these tasks. Existing DM-based methods often require additional training, lack generalization to pretrained latent models, underperform, and demand significant computational resources due to extensive backpropagation through ODE solvers and inversion processes. In this work, we first develop a theoretical and empirical understanding of the vector field dynamics of RFMs in efficiently guiding the denoising trajectory. Our findings reveal that we can navigate the vector field in a deterministic and gradient-free manner.  Utilizing this property, we propose FlowChef, which leverages the vector field to steer the denoising trajectory for controlled image generation tasks, facilitated by gradient skipping.   FlowChef is a unified framework for controlled image generation that, for the first time, simultaneously addresses classifier guidance, linear inverse problems, and image editing without the need for extra training, inversion, or intensive backpropagation. Finally, we perform extensive evaluations and show that FlowChef significantly outperforms baselines in terms of performance, memory, and time requirements, achieving new state-of-the-art results. },
+  booktitle   = {ArXiv},
+  year        = {2024},
+  pdf         = {#},
+  url         = {https://flowchef.github.io/},
+  website     = {https://flowchef.github.io/},
+  demo        = {https://huggingface.co/spaces/FlowChef/FlowChef-Flux1-dev},
+  code        = {https://github.com/FlowChef/flowchef},
+  selected    = {true},
+  preview     = {flowchef.gif},
+  bibtex_show = {true},
+}
+
+
 @inproceedings{patel2024tripletclip,
   abbr        = {clip},
   title       = {TripletCLIP: Improving Compositional Reasoning of CLIP via Vision-Language Negatives},
@@ -46,6 +64,7 @@
   selected    = {true},
   preview     = {sheng_emnlp.png},
   bibtex_show = {true},
+  code        = {https://github.com/shengcheng/Captions4T2I},
 }
 
 @inproceedings{patel2024eclipse,

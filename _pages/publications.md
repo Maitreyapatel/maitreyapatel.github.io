@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: publications by categories in reversed chronological order.
-years: [2024, 2023, 2022, 2020, 2019]
+years: [2025, 2024, 2023, 2022, 2020, 2019]
 nav: true
 nav_order: 1
 ---
@@ -12,6 +12,7 @@ nav_order: 1
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
+  <br>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 

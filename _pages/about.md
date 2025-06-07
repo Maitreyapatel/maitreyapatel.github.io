@@ -35,6 +35,4 @@ I have extensive experience in developing large-scale <span style="color: #4CAF5
 <!-- Aside from academics, I enjoy working on intriguing open-source projects. Recently, I have dedicated my free time to developing [reliability-checklist](https://github.com/Maitreyapatel/reliability-checklist) (v0.1.0 released) and [AInos](https://ainosai.com) (under review for product market fit). -->
 
 
-
-
-<p style="color:red;">I always look for self-motivated students who want to focus on either fundamental problems or responsibility aspects of Generative AI. If you have prior experience in related fields, feel free to reach out to me if you are interested.</p>
+<p style="color:red;">Note: I am currently not taking on any new students for supervision. However, if you have a well-defined research proposal and can clearly articulate how we might collaborate, I welcome you to reach out.</p>

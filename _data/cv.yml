@@ -31,6 +31,24 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: Adobe
+      year: Summer'25
+      description:
+        - Fast & scalable low NFE image generative models.
+        - Hareesh Ravi, Ajinkya Kale
+    - title: Research Intern
+      institution: SonyAI
+      year: Spring'25
+      description:
+        - (TokenVibe) Scaling 1D Image Tokenization and Generation Across Dynamic Resolutions
+        - Jingtao Li, Weiming Zhuang, Lingjuan Lyu
+    - title: Research Intern
+      institution: Adobe
+      year: Summer'24
+      description:
+        - 3D-Aware Object-centric Controls for Diffusion Models.
+        - Hareesh Ravi, Pranav Aggarwal, Yiru Shen, Ajinkya Kale
     - title: Research Assistant
       institution: Arizona State University
       year: Fall'22 -- Present
@@ -71,12 +89,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2023
+    - year: 2025
       items:
-        - Received ($950) Graduate College Travel Award FY23 Q4 for NeurIPS from ASU.
-    - year: 2022
+        - Oral presentation (top 6%) at ICLR DELTA Workshop (withdrawn).
+    - year: 2025/24
       items:
-        - Received ($300) Graduate College Travel Award FY22 Q4 for NeurIPS from ASU.
+        - SCAI Graduate PhD Scholarship.
+    - year: 2022-25
+      items:
+        - Received ($2850+) Graduate College Travel Award to attend NeurIPS, ICLR, CVPR, and AAAI from ASU.
     - year: 2021
       items: 
         - Simon Fraser University - MSCS Research scholarship of $42,000.00 (Declined).
@@ -90,6 +111,9 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - The role of representation learning in the era of large generative models. -- Seminar on Frontier Topics in GenAI
     - year: 2024
       items:
         - Towards Robust Text-to-Image Generative Models in Resource-Efficient Manner. -- RGMV - Tutorial @ WACV'24

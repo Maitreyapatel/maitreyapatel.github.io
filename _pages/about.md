@@ -15,7 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior Ph.D. student at Arizona State University (ASU). I am working alongside [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/). I closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) and [Changhoon Kim](https://sites.google.com/asu.edu/changhoonkim).
+I am a Ph.D. candidate at Arizona State University (ASU). I am working alongside [Yezhou Yang](https://yezhouyang.engineering.asu.edu) and [Chitta Baral](https://cogintlab-asu.github.io/). 
+<!-- I closely collaborate with [Tejas Gokhale](https://www.tejasgokhale.com) and [Changhoon Kim](https://sites.google.com/asu.edu/changhoonkim). -->
 
 
 <!-- My research focuses on the `theoretical foundations of visual generative models` (e.g., diffusion and flow models) and their applications in conditional sampling, including personalization, inverse problems, and image/video editing. Additionally, I am interested in representation learning, the development of large-scale multimodal foundational models, and `inference-time steering/guiding` generative models dynamically at inference to improve controllability and reliability. **I firmly believe that true World Models must be generalizable, efficient, controllable, responsible, and grounded in physical laws.** -->

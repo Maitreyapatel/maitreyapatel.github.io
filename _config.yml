@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Modified by <a href="https://github.com/Maitreyapatel">Maitreya Patel</a>.
-keywords: Maitreya, GenerativeAI, Multimodal, Diffusion/Flow Modeling  # add your own keywords or leave empty
+keywords: Maitreya, Adobe, GenerativeAI, Multimodal, Diffusion/Flow Modeling  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -60,7 +60,7 @@ max_width: 800px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: assets/img/profile_photo.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -94,6 +94,9 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   The best way to reachout to me would be email or twitter.
+
+# CV PDF (rendered as a download icon in the social row)
+cv_pdf: Maitreya_June25.pdf
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

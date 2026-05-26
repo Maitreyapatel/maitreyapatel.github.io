@@ -21,3 +21,6 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+# Bundled with Ruby <= 3.4; must be explicit on Ruby 4+ where jekyll-twitter-plugin still uses it
+gem 'ostruct'
